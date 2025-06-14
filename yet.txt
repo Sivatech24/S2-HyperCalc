@@ -1,0 +1,18 @@
+yech@yech-VirtualBox:~$ gcc -static -o S2 S2.C
+S2.C: In function ‘void drawMenu()’:
+S2.C:202:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  202 |     menu[0] = "[1] Home";
+      |               ^~~~~~~~~~
+S2.C:203:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  203 |     menu[1] = "[2] Settings";
+      |               ^~~~~~~~~~~~~~
+S2.C:204:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  204 |     menu[2] = "[3] About";
+      |               ^~~~~~~~~~~
+S2.C:205:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  205 |     menu[3] = "[4] Calculator";
+      |               ^~~~~~~~~~~~~~~~
+S2.C:206:15: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  206 |     menu[4] = "[0] Exit";
+      |               ^~~~~~~~~~
+
